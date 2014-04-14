@@ -1,0 +1,5 @@
+Checking the MadGraph AGC events!
+
+
+1) Calculate cross section without AGC. This will serve as normalization for everything.
+
