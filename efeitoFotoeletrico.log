@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  14 APR 2014 09:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  14 APR 2014 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,7 +223,7 @@ Here is how much of TeX's memory you used:
  5492 multiletter control sequences out of 15000+600000
  8716 words of font info for 32 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,18n,23p,697b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,18n,23p,715b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
@@ -235,7 +235,7 @@ amsfonts/cm/cmr17.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy7.pfb>
-Output written on efeitoFotoeletrico.pdf (4 pages, 158549 bytes).
+Output written on efeitoFotoeletrico.pdf (4 pages, 159714 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
