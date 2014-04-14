@@ -1,6 +1,6 @@
 \documentclass{article}
 
-\usepackage{amsmath, graphics}
+\usepackage{amsmath, graphicx}
 
 \title{Revis\~ao R\'apida de Efeito Fotoel\'etrico}
 \author{Rafael Lopes de S\'a}
@@ -116,5 +116,23 @@ Essa \'e uma maneira muito conveniente de se medir a fun\c c\~ao trabalho de um 
 \end{equation}
 
 \section{Sobre a energia cin\'etica dos el\'etrons}
-J\'a falamos
+Para entender a energia cin\'etica que os el\'etrons ter\~ao no circuito \'e importante primeiro entender a energia que eles tem enquanto est\~ao num s\'olido. Isso pode ser visto no diagrama da figura \ref{fig:bandas}. Sem a incid\^encia de luz, os el\'etrons com maior energia num metal estar\~ao na banda intermedi\'aria. Essa \'e a chamada banda de condu\c c\~ao. Isso quer dizer que eles podem se propagar livremente dentro do material (por isso que metais conduzem eletricidade), mas n\~ao podem escapar do material. A energia de el\'etrons livre \'e maior que el\'etrons de condu\c c\~ao e a diferen\c ca entre as duas bandas de energia \'e justamente a fun\c c\~ao trabalho que j\'a definimos acima.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.9\textwidth]{bandas.png}
+\caption{\label{fig:bandas}Estrutura de energia em bandas de um el\'etron num s\'olido. A figura mostra a chamada \textbf{banda de condu\c c\~ao}, na qual os el\'etrons podem se propagar livremente dentro do material e a diferen\c ca de energia $\phi$ para que os el\'etrons escapem do estrutura do material e possam se propagar livremente no v\'acuo fora do material. A diferen\c ca de energia entre essas duas bandas de energia \'e chamada \textbf{fun\c c\~ao trabalho} $\phi$.}
+\end{figure}
+Note que s\'olidos s\~ao essencialmente diferente de \'atomos livres. Em \'atomos livres (como num g\'as), os el\'etrons s\'o podem ter energias discretas bem definidas. Em s\'olidos eles podem ter \textbf{qualquer energia} em \textbf{bandas de energias}. Ent\~ao podemos imaginar diversas situa\c c\~oes distintas para como o efeito fotoel\'etrico ocorre no metal. Os tr\^es casos que quero discutir s\~ao representados pelas tr\^es setas escuras.
+
+No primeiro caso (mais a esquerda), o el\'etron absorve um f\'oton que tem energia \textbf{exatamente} igual a fun\c c\~ao trabalho. Isso quer dizer que o el\'etron s\'o vai sair do material se ele tiver a maior energia poss\'ivel na banda de condu\c c\~ao. Se a energia dele fosse um poquinho menor, ele n\~ao escaparia. E, mesmo quando escapa, ele fica livre, mas parado, pois n\~ao sobra nenhuma energia como energia cin\'etica.
+
+Nos dois outros casos o f\'oton tem mais energia que a fun\c c\~ao trabalho. Ent\~ao duas coisas podem acontecer. Esse f\'oton pode ser absorvido por um el\'etron na borda da banda de condu\c c\~ao, isto \'e, com a maior energia poss\'ivel dentro do material. Neste caso, o el\'etron se libera e ainda ter\'a uma energia cin\'etica $E_c$. Mas tamb\'em pode acontecer do f\'oton ser absrovido por um el\'etron com um pouco menos de energia (mais a direita na figura). Neste caso ele se liberar\'a, mas sua energia cin\'etica depois disso ser\'a zero.
+
+A id\'eia que quero passar aqui \'e que a energia cin\'etica que escrevemos na f\'ormula \eqref{eq:energia}, n\~ao vai ser a energia cin\'etica de \textbf{todo} el\'etron liberado, mas sim a maior energia poss\'ivel. Alguns el\'etrons tinha uma energia menor dentro do material. Logo, algumas vezes voc\^e vai ver escrito:
+
+\begin{equation}
+E_c^{\text{max}} = hf - \phi - E_p
+\end{equation}
+
 \end{document}
