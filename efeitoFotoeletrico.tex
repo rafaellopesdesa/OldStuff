@@ -2,14 +2,16 @@
 
 \usepackage{amsmath, graphicx}
 
-\title{Revis\~ao R\'apida de Efeito Fotoel\'etrico}
+\title{Revis\~ao R\'apida de Processos At\^omicos}
 \author{Rafael Lopes de S\'a}
 \date{\today}
 
 \begin{document}
 \maketitle
 
-\section{Resumo}
+\section{Efeito fotoel\'etrico}
+
+\subsection{Resumo}
 
 O efeito fotoel\'etrico consiste num el\'etron de um metal absorvendo um f\'oton de forma que esse el\'etron se torna livre:
 
@@ -54,7 +56,7 @@ Algumas coisas a se lembrar:
 \item Para emitir mais el\'etron, voc\^e precisa de mais f\'otons. Isso quer dizer uma luz incidente mais intensa.
 \end{itemize}
 
-\section{Constantes e unidades}
+\subsection{Constantes e unidades}
 
 A unidade de energia no Sistema Internacional de unidades \'e o Joule. $1\,\text{J}$ \'e uma quantidade muito grande para efeitos at\^omicos e subat\^omicos. Uma unidade conveniente \'e o $\text{eV}$. 1 $\text{eV}$ \'e definido como a energia que 1 (um) el\'etron tem num potencial de 1 (um) Volt. Para converter para o SI, basta usar a carga do el\'etron:
 
@@ -86,7 +88,7 @@ Algumas vezes tamb\'em \'e conveniente usar $\text{eV/c}^2$ como unidade de mass
 m_e = 511\, \text{keV/c}^2.
 \end{equation}
 
-\section{Um exemplo t\'ipico}
+\subsection{Um exemplo t\'ipico}
 
 A figura abaixo representa o arranjo t\'ipico do efeito fotoel\'etrico:
 
@@ -115,7 +117,7 @@ Essa \'e uma maneira muito conveniente de se medir a fun\c c\~ao trabalho de um 
 \phi = hf - Q_e\times V_{\text{max}}.
 \end{equation}
 
-\section{Sobre a energia cin\'etica dos el\'etrons}
+\subsection{Sobre a energia cin\'etica dos el\'etrons}
 Para entender a energia cin\'etica que os el\'etrons ter\~ao no circuito \'e importante primeiro entender a energia que eles tem enquanto est\~ao num s\'olido. Isso pode ser visto no diagrama da figura \ref{fig:bandas}. Sem a incid\^encia de luz, os el\'etrons com maior energia num metal estar\~ao na banda intermedi\'aria. Essa \'e a chamada banda de condu\c c\~ao. Isso quer dizer que eles podem se propagar livremente dentro do material (por isso que metais conduzem eletricidade), mas n\~ao podem escapar do material. A energia de el\'etrons livre \'e maior que el\'etrons de condu\c c\~ao e a diferen\c ca entre as duas bandas de energia \'e justamente a fun\c c\~ao trabalho que j\'a definimos acima.
 
 \begin{figure}[ht]
@@ -132,7 +134,27 @@ Nos dois outros casos o f\'oton tem mais energia que a fun\c c\~ao trabalho. Ent
 A id\'eia que quero passar aqui \'e que a energia cin\'etica que escrevemos na f\'ormula \eqref{eq:energia}, n\~ao vai ser a energia cin\'etica de \textbf{todo} el\'etron liberado, mas sim a maior energia poss\'ivel. Alguns el\'etrons tinha uma energia menor dentro do material. Logo, algumas vezes voc\^e vai ver escrito:
 
 \begin{equation}
-E_c^{\text{max}} = hf - \phi - E_p
+E_c^{\text{max}} = hf - \phi - E_p.
 \end{equation}
 
+\section{Bremsstrahlung}
+
+O proceso de bremsstrahlung tem os seguintes estados iniciais e finais:
+
+\begin{equation}
+\text{el\'etron livre} \rightarrow \text{el\'etron livre} + \text{f\'oton}.
+\end{equation}
+A palavra bremsstrahlung vem do alem\~ao e significa, literalmente, energia de frenamento. Isso porque o el\'etron \'e desacelerado durante o processo. Em outras palavras, o el\'etron livre do estado final tem uma energia cin\'etica maior que a o el\'etron no estado final. A diferen\c ca entre as duas energias \'e a energia do f\'oton. Logo, a freq\"u\^encia, $f$, do f\'oton emitida \'e:
+
+\begin{equation}\label{eq:energia2}
+f = \frac{E_c(\text{el\'etron inicial})-E_c(\text{el\'etron inicial})}{h}
+\end{equation}
+
+Essa \'e uma das formas mais comuns de se produzir raio X. As m\'aquinas de raio X em hospitais, por exemplo, usam exatamente esse m\'etodo. Aqui estamos assumindo duas coisas:
+
+\begin{enumerate}
+\item O el\'etron perde toda sua energia cin\'etica.
+\item Toda a energia \'e transferida para apenas um f\'oton.
+\end{enumerate}
+Ambas hip\'oteses n\~ao s\~ao necessiaramente verdade. O el\'etron perde sua energia interagindo com algum material, vamos supor que esse material \'e exposso o suficiente para parar o el\'etron. Isto \'e, o caso (1) acima n\~ao nos interessa aqui. No segundo caso, o el\'etron pode emitir diversos f\'otons tal que a soma de todas as energias emitidas \'e igual a sua energia inicial. Nesse caso cada f\'oton individual ter\'a uma frequ\"u\^encia (e, logo, energia) menor do que aquela escrita em \eqref{eq:energia2}.
 \end{document}
