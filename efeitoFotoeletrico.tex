@@ -275,7 +275,7 @@ Se tivermos uma cole\c c\~ao grande de n\'ucleos radioativos, como a probabilida
 \end{equation}
 onde o signal negativo apenas indica que os n\'ucleos est\~ao desparecendo. A quantidade no lado direito da equ\c c\~ao \eqref{atividade}, $\lambda N$, chama-se \textbf{atividade} da amostra radioativa e indica quantos decaimentos, em m\'edia, se observa por unidade de tempo. Embora n\~ao seja imediato, podemos ``resolver'' a equa\c c\~ao acima para obter uma fun\c c\~ao da quantidade m\'edia de n\'ucleos que ainda se preservam sem decair depois de um tempo $t$:
 
-\begin{equation}
+\begin{equation}\label{decay}
 N(t) = N(0)\times e^{-\lambda t}.
 \end{equation}
 A quantidade $N(0)$ denota quantos n\'ucleos sua amostra tem no in\'icio da observa\c c\~ao, isto \'e, no tempo $t=0$. Como essa rela\c c\~ao envolve a fun\c c\~ao exponencial, uma pequena revis\~ao \'e em ordem.
@@ -292,10 +292,64 @@ A fun\c c\~ao exponencial:
 \'e definida para todos os reais e possui as seguintes propriedades:
 
 \begin{enumerate}
-\item $f(x+y)= e^{x+y} = e^x\times e^y = f(x)\times f(y)$
-\item $f(x-y) = e^{x-y}= \frac{e^x}{e^y} = \frac{f(x)}{f(y)}$
-\item $f(xy) = e^{xy} = (e^x)^y = f(x)^y$
+\item $f(x+y)= e^{x+y} = e^x\times e^y = f(x)\times f(y)$,
+\item $f(x-y) = e^{x-y}= \frac{e^x}{e^y} = \frac{f(x)}{f(y)}$,
+\item $f(xy) = e^{xy} = (e^x)^y = f(x)^y$.
 \end{enumerate}
+
+A fun\c c\~ao logar\'itmo
+
+\begin{equation}
+\begin{split}
+&g:\mathbb{R}^+\rightarrow \mathbb{R}\\
+&g(x) = \ln x
+\end{split}
+\end{equation}
+ \'e definida como a fun\c c\~ao inversa da exponencial, isto \'e:
+
+\begin{equation}
+f(x) = e^x \rightarrow g(x) = f^{-1}(x) = \ln x \rightarrot f(g(x)) = x\text{ e }g(f(x)) = x\\
+\end{equation}
+ou, dito de outra forma:
+
+\begin{equation}
+y = e^x \leftrightarrow x = \ln y
+\end{equation}
+As propriedades da fun\c c\~ao logar\'itimo seguem imediatamente das propriedades da fun\c c\~ao exponencial:
+
+\begin{enumerate}
+\item f(xy) = \ln(xy) = \ln x + \ln y = f(x) + f(y),
+\item f(\frac{x}{y}) = \ln\frac{x}{y} = \ln x - \ln y = f(x) - f(y),
+\item f(x^y) = \ln x^y = y\ln x = y\, f(x).
+\end{enumerate}
+A propriedade que mais vamos usar aqui nesse texto \'e realmente o fato do logar\'itmo ser o inverso da exponencial:
+
+\begin{equation}
+\begin{split}
+&e^{\ln x} = x\\
+&\ln (e^x) = x
+\end{split}
+\end{equation}
+
+\subsection{Meia-vida e vida m\'edia}
+
+A \textbf{meia-vida}, $t_{1/2}$, de uma amostra \'e definida com o tempo em que, em m\'edia, apenas metade da amostra sobrevive. Usando a equ\c c\~ao \eqref{decay}:
+\begin{equation}
+N(t_{1/2}) = \frac{N(0)}{2} = N(0) e^{-\lambda t_{1/2}}.
+\end{equation}
+Dividindo por $N(0)$ dos dois lados e tirando o logar\'itmo:
+
+\begin{equation}
+\ln\frac{1}{2} = -\lambda t_{1/2} \Rightarrow t_{1/2} = \frac{\ln(2)}{\lambda},
+\end{equation}
+onde usamos que $-\ln\frac{1}{2} = \ln 2$, o que pode ser observado sem maiores dificuldades das propriedades do logar\'itmo sabendo que $\ln(1) = 0$.
+
+A vida m\'edia $\tau$ de um n\'ucleo \'e o tempo m\'edio que demora para ele decair. Novamente, essa conta n\~ao \'e imediata mas \'e poss\'ivel mostrar que esse tempo \'e dado por:
+\begin{equation}
+\tau = \frac{1}{\lambda}
+\end{equation}
+
+\subsection{Tipo de decaimentos radioativos}
 
 \end{document}
 
