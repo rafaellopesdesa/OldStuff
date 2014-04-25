@@ -192,7 +192,7 @@ O espectro de energia dos f\'otons emitidos \'e a superposi\c c\~ao de dois espe
 
 As linhas de emiss\~ao discretas correspondem a outro tipo de processo at\^omico, que estudaremos em seguida: emiss\~ao e absor\c c\~ao por \'atomos.
 
-\section{Absor\c c\~ao e emiss\~ao de f\'otons por \'atomos}
+\section{Absor\c c\~ao e emiss\~ao de f\'otons por \'atomos}\label{abs}
 
 Quando os \'atomos est\~ao livres, como num g\'as, o espectro de energia dos el\'etrons n\~ao \'e cont\'inuo, como no caso de el\'etrons livre, nem em bandas, como no caso de s\'olidos. As energias que os el\'etrons podem ocupar s\~ao discretas e cada n\'ivel de energia \'e chamado um \textbf{orbital at\^omico}. Calcular a energia de cada um desses orbitais \'e dif\'icil, a n\~ao ser no caso do hidrog\^enio, o que faremos mais a frente.
 
@@ -344,12 +344,30 @@ Dividindo por $N(0)$ dos dois lados e tirando o logar\'itmo:
 \end{equation}
 onde usamos que $-\ln\frac{1}{2} = \ln 2$, o que pode ser observado sem maiores dificuldades das propriedades do logar\'itmo sabendo que $\ln(1) = 0$.
 
-A vida m\'edia $\tau$ de um n\'ucleo \'e o tempo m\'edio que demora para ele decair. Novamente, essa conta n\~ao \'e imediata mas \'e poss\'ivel mostrar que esse tempo \'e dado por:
+A \textbf{vida m\'edia}, $\tau$, de um n\'ucleo \'e o tempo que, em m\'edia, que demora para ele decair. Novamente, essa conta n\~ao \'e imediata mas \'e poss\'ivel mostrar que esse tempo \'e dado por:
 \begin{equation}
 \tau = \frac{1}{\lambda}
 \end{equation}
 
 \subsection{Tipo de decaimentos radioativos}
 
+Um n\'ucleo \'e composto de pr\'otons e n\^eutrons. Da mesma forma que os el\'etrons num \'atomo ocupam orbitais de energia em n\'iveis discretos, os pr\'otons e n\^eutrons tamb\'em apenas existem em n\'iveis de energia bem definidos. Ainda da mesma forma que el\'etrons num \'atomo (reveja a se\c c\~ao~\ref{abs} se voc\^e n\~ao se recorda), esses pr\'otons e n\^eutrons podem estar num n\'ivel de energia que n\~ao \'e aquele com menor energia poss\'ivel. E, mais uma vez da mesma forma que el\'etrons num \'atomo, esses pr\'otons e n\^eutrons, dado um tempo sufienciente, v\~ao voltar ao n\'ivel de menor energia, pois esse \'e o \'unico est\'avel, emitindo um f\'oton (em geral em frequ\^encias bem maior que a luz vi\'isivel, j\'a que as energias das liga\c c\~oes at\^omicas s\~ao bem maiores que as dos el\'etrons num \'atomos). Esse tipo de decaimento que acontece com n\'ucleos excitados chama-se \textbf{decaimento gama}.
+
+Uma outra possibilidade \'e que pr\'otons e n\^eutrons decaiam atrav\'es da chamada for\c ca nuclear fraca. Nesse caso, o processo n\~ao emite f\'otons, mas uma part\'icula chamada b\'oson $W$. O b\'oson $W$, por sua vez, decai quase que imediatamente em um el\'etron ou p\'ositron, da seguinte forma:
+
+\begin{equation}\label{beta}
+\begin{split}
+&n \rightarrow p + W^-\rightarrow p + e^- + \bar{\nu},\\
+&p \rightarrow n + W^+\rightarrow p + e^+ + \nu,
+\end{split}
+\end{equation}
+onde $e^+$ representa um p\'ositron, $e^-$ um el\'etron e $\nu$ s\~ao neutrinos. Na equa\c c\~ao~\eqref{beta}, o primeiro processo chama-se \textbf{decaimento $\beta -$} e o segundo \textbf{decaimento $\beta +$}. Como a massa do n\^eutron \'e essecialmente a mesma da do pr\'oton, a massa do n\'ucleo n\~ao muda, mas sim o n\'umero at\^omico. No final do dia, o efeito de um decaimento beta para o n\'ucleo s\~ao, respectivamente:
+
+\begin{equation}
+\begin{split}
+&{}^Z_AN \rightarrow {}^{Z+1}_AN + e^- + \bar{\nu},\\
+&{}^Z_AN \rightarrow {}^{Z-1}_AN + e^+ + \nu
+\end{split}
+\end{equation}
 \end{document}
 
