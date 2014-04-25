@@ -261,6 +261,22 @@ onde $m_e$ e $e$ s\~ao, respectivamente, a massa e carga do el\'etron, $\epsilon
 
 \section{Decaimentos nucleares}
 
-O processo de decaimento nuclear radioativo \'e um processo aleat\'orio, que acontece independentemente da hist\'oria passada do n\'ucleo e, em primeira aproxima\c c\~ao, da presen\c ca de outros n\'ucleos radioativos. Como o processo \'e aleat\'orio, tudo que podemos dizer \'e a probabilidade de um n\'ucleo decair num dado intervalo de tempo, mas n\~ao \'e poss\'ivel ter certeza se, ap\'os passagem de dado tempo o n\'ucleo ter\'a decaido ou n\~ao. A probabilidade de um n\'ucleo decair num certo intervalo de tempo
+O processo de decaimento nuclear radioativo \'e um processo aleat\'orio, que acontece independentemente da hist\'oria passada do n\'ucleo e, em primeira aproxima\c c\~ao, da presen\c ca de outros n\'ucleos radioativos. Como o processo \'e aleat\'orio, tudo que podemos dizer \'e a probabilidade de um n\'ucleo decair num dado intervalo de tempo, mas n\~ao \'e poss\'ivel ter certeza se, ap\'os passagem de dado tempo o n\'ucleo ter\'a decaido ou n\~ao. A probabilidade de um n\'ucleo decair num certo intervalo de tempo $\Delta t$ \'e dado por:
+
+\begin{equation}
+P(\Delta t) = \lambda\times \Delta t
+\end{equation}
+Note como a probabilidade n\~ao depende da hist\'oria anterior do n\'ucleo. N\~ao importa se um n\'ucleo radioativo \'e antigo ou velho, a probabilidade de decair num intervalo de tempo $\Delta t$ s\'o depende do intervalo e de $\lambda$.
+
+Se tivermos uma cole\c c\~ao grande de n\'ucleos radioativos, como a probabilidade de cada n\'ucleo decair independete dos outros, em m\'edia, teremos $N \lambda \Delta t$ n\'ucleo deca\'idos ap\'os um intervalo de tempo $\Delta t$. Uma outra forma de dizer isso \'e que a velocidade de desaparecimento dos n\'ucleos \'e:
+
+\begin{equation}\label{atividade}
+\frac{\Delta N}{\Delta t} = -\lambda N
+\end{equation}
+onde o signal negativo apenas indica que os n\'ucleos est\~ao desparecendo. A quantidade no lado direito da equ\c c\~ao \eqref{atividade}, $\lambda N$, chama-se \textbf{atividade} da amostra radioativa e indica quantos decaimentos, em m\'edia, se observa por unidade de tempo. Embora n\~ao seja imediato, podemos ``resolver'' a equa\c c\~ao acima para obter uma fun\c c\~ao da quantidade m\'edia de n\'ucleos que ainda se preservam sem decair depois de um tempo $t$:
+
+\begin{equation}
+N(t) = N(0)\times e^{-\lambda t}
+\end{equation}
 \end{document}
 
