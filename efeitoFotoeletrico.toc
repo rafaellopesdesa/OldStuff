@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Efeito fotoel\'etrico}{2}
+\contentsline {subsection}{\numberline {1.1}Constantes e unidades}{3}
+\contentsline {subsection}{\numberline {1.2}Um exemplo t\'ipico}{4}
+\contentsline {subsection}{\numberline {1.3}Sobre a energia cin\'etica dos el\'etrons}{5}
+\contentsline {section}{\numberline {2}Bremsstrahlung}{6}
+\contentsline {subsection}{\numberline {2.1}Resumo}{6}
+\contentsline {subsection}{\numberline {2.2}Em pequeno adendo sobre a f\'ormula para energia cin\'etica}{7}
+\contentsline {subsection}{\numberline {2.3}Espectro real\'istico de emissão de raio X}{7}
+\contentsline {section}{\numberline {3}Absor\c c\~ao e emiss\~ao de f\'otons por \'atomos}{8}
+\contentsline {subsection}{\numberline {3.1}O \'atomo de hidrog\^enio}{10}
+\contentsline {subsection}{\numberline {3.2}\'Atomos de muitos el\'etrons e degeneresc\^encia dos orbitais}{11}
+\contentsline {subsection}{\numberline {3.3}O processo de laser}{11}
+\contentsline {section}{\numberline {4}As fun\c c\~oes de onda de De Broglie}{14}
+\contentsline {subsection}{\numberline {4.1}O experimento de dupla-fenda}{15}
+\contentsline {subsection}{\numberline {4.2}Raio X caracter\'istico e efeito Auger}{17}
+\contentsline {section}{\numberline {5}Decaimentos nucleares}{17}
+\contentsline {subsection}{\numberline {5.1}Fun\c c\~oes exponenciais e logar\'itimicas}{18}
+\contentsline {subsection}{\numberline {5.2}Meia-vida e vida m\'edia}{19}
+\contentsline {subsection}{\numberline {5.3}Tipo de decaimentos radioativos}{19}
+\contentsline {subsection}{\numberline {5.4}Um adendo sobre unidades}{20}
+\contentsline {subsection}{\numberline {5.5}Energia de liga\c c\~ao e d\'eficit de massa}{21}
